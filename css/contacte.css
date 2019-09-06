@@ -1,0 +1,18 @@
+/*estils del fomulari*/
+form{
+  /* border: gruix tipuslinia color  */
+  /* border: 1px solid black; */
+  width: 30%;
+  /*2 valors: 1(adalt-abaix , dreta-esquerra)*/
+  /*apliquem "margin" per centrar el form (espai per fora del contenidor)*/
+  margin: 30px auto;
+  /*padding*/
+  padding: 20px;
+}
+/*elimina l'opció de redimensionar el "textarea"*/
+textarea{
+  margin: 10px;
+  width: 100%;
+  resize: none;
+  height: 150px;
+}

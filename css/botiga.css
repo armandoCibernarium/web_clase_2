@@ -1,0 +1,14 @@
+/* selector de clase (propietats de estils
+comuns per tots els elements) */
+.producte{
+  width: 120px;
+  height: 120px;
+  background-color: blue;
+  color: white;
+}
+/*propietat flex aplicat al div amb id "contenidor"*/
+#contenidor_botiga{
+  display: flex;
+  justify-content: space-around;
+  margin: 30px;
+}

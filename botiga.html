@@ -1,0 +1,61 @@
+<!-- ESTRUCTURA HTML5 d'una web  -->
+<!-- Li diem al document que és tipus HTML -->
+<!DOCTYPE html>
+<!-- Etiqueta "HTML" amb atribut "lang"-->
+<html lang="ca">
+  <!--L'etiqueta "head" no forma part de
+  la visualització del la web, només de la configuració-->
+  <head>
+    <!-- "meta": normalment per configuració de SEO i caràters especials -->
+    <meta charset="utf-8">
+    <!-- Nom del titul de la web a la pestanya de la finestra -->
+    <title>Web Cibernarium</title>
+    <!-- LINK del arxiu "index.css"-->
+    <link rel="stylesheet" href="css/index.css">
+    <!-- LINK del arxiu "botiga.css"-->
+    <link rel="stylesheet" href="css/botiga.css">
+    <!-- LINK del arxiu "index.js"-->
+    <script src="js/index.js"></script>
+    <!-- LINK a la font escogida de GOOGLE FONTS"-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+  </head>
+  <!-- Tota la part del contingut visual de la web -->
+  <body>
+    <!-- Estructura correcta per HTML5-->
+    <!-- capçalera-->
+    <header>
+      <!-- imatge del logo-->
+      <!-- l'imatge es converteix en link per anar a la pag: "index.html" -->
+      <a href="index.html"><img src="img/logo.png" id="logo"></a>
+      <!-- l'element "nav" és el contenidor de tots els elements del
+          menú de navegació-->
+      <nav>
+        <!-- etiqueta <a> per codificar els links-->
+        <a href="index.html">Inici</a> |
+        <a href="botiga.html">Botiga</a> |
+        <a href="contacte.html">Contacte</a>
+      </nav>
+    </header>
+    <!-- contingut -->
+    <main>
+      <!-- "h1" codifica un titol -->
+      <h1>Tienda</h1>
+      <!-- Posem 8 caixes (div) contenedores amb la mateixa amplada
+      i altura -->
+      <div id="contenidor_botiga">
+        <div class="producte">Producte 1</div>
+        <div class="producte">Producte 2</div>
+        <div class="producte">Producte 3</div>
+        <div class="producte">Producte 4</div>
+        <div class="producte">Producte 5</div>
+        <div class="producte">Producte 6</div>
+        <div class="producte">Producte 7</div>
+        <div class="producte">Producte 8</div>
+      </div>
+    </main>
+    <!-- peu de pàgina -->
+    <footer>
+      <p>Web del curs del cibernàrium © 2019</p>
+    </footer>
+  </body>
+</html>

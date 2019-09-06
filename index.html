@@ -29,25 +29,30 @@
           menú de navegació-->
       <nav>
         <!-- etiqueta <a> per codificar els links-->
-        <a href="https://cibernarium.barcelonactiva.cat/">Cibernàrium</a>|
-        <a href="http://google.es/">Google</a>|
-        <a href="tienda.html">Tienda</a>
+        <a href="index.html">Inici</a> |
+        <a href="botiga.html">Botiga</a> |
+        <a href="contacte.html">Contacte</a>
       </nav>
     </header>
     <!-- contingut -->
     <main>
-      <!-- "h1" codifica un titol -->
-      <h1>Formulari</h1>
-      <!-- "form" contindrà tots els elements d'un formulari -->
-      <form onsubmit="return false;"><!--  desactiva la funció de submit del formulari -->
-        <!-- input tipus text per el camp: nom -->
-        <input type="text" placeholder="nom" id="nom">
-        <!-- textarea "missatge" -->
-        <textarea placeholder="missatge" id="missatge"></textarea>
-        <!-- l'element "button" té assignat el event "onclick" que crida a una funció
-              codificada al arxiu "index.js"-->
-        <button onclick="validar()">Enviar</button>
-      </form>
+      <div id="contenidor_index">
+        <!-- REGISTRE -->
+        <form onsubmit="return false;">
+          <h1>Registre</h1>
+          <input type="text" placeholder="nom">
+          <input type="email" placeholder="email">
+          <input type="password" placeholder="contrasenya">
+          <button>Registrarse</button>
+        </form>
+        <!-- LOGIN -->
+        <form onsubmit="return false;">
+          <h1>Entrar</h1>
+          <input type="email" placeholder="email">
+          <input type="password" placeholder="contrasenya">
+          <button>Entrar</button>
+        </form>
+      </div>
     </main>
     <!-- peu de pàgina -->
     <footer>
