@@ -1,0 +1,83 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+  /* aplica margin i padding 0 per treure l'espai
+  que deixa el navegador per defecte */
+  margin: 0;
+  padding: 0;
+}
+/*INICI CAPÇALERA ------------------------------------*/
+/*Selector de etiqueta (directament amb
+el nom de l'etiqueta del HTML)*/
+header{ /*selector css*/
+  height: 25px; /*Nom de la propietat : valor propietat*/
+  /* background-color: #808080; */
+  border-bottom: 1px solid black;
+  /*Posicionament elements del header*/
+  /*display flex*/
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /*apliquem "padding" (espai fins a dintre del contenidor)*/
+  padding: 30px;
+}
+a{
+  /*treu el subrayat del text*/
+  text-decoration: none;
+  color: black;
+  margin-right: 10px;
+}
+/* efecte cuan paseem per sobra dels links */
+a:hover{
+  text-decoration: underline;
+}
+/*Selector per ID*/
+/*faig referència a l'element amb id="logo" amb el simbol #*/
+#logo{
+  width: 100px;
+}
+/*FIN CAPÇALERA ----------------------------------------------*/
+/*INICI CONTINGUT PRINCIPAL ----------------------------------*/
+/*tot el main amb text centrat*/
+main{
+  text-align: center;
+}
+/*estils del fomulari*/
+form{
+  /* border: gruix tipuslinia color  */
+  /* border: 1px solid black; */
+  width: 30%;
+  /*2 valors: 1(adalt-abaix , dreta-esquerra)*/
+  /*apliquem "margin" per centrar el form (espai per fora del contenidor)*/
+  margin: 30px auto;
+  /*padding*/
+  padding: 20px;
+}
+/*tamanys dels elements del form*/
+input, textarea, button{
+  width: 100%;
+  /*espai entre ells*/
+  margin: 10px;
+}
+button{
+  background-color: #ff6161;
+  padding: 8px;
+  border: 0;
+  color: white;
+}
+/*elimina l'opció de redimensionar el "textarea"*/
+textarea{
+  resize: none;
+  height: 150px;
+}
+/*FIN CONTINGUT PRINCIPAL ----------------------------------------------*/
+/*INICI PEU DE PÀGINA ----------------------------------*/
+footer{
+  height: 30px;
+  text-align: center;
+  color: white;
+  background-color: #403a3a;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  padding: 30px;
+}
+/*FIN PEU DE PÀGINA ----------------------------------*/
